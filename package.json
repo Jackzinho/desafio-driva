@@ -2,15 +2,18 @@
   "name": "desafio",
   "version": "1.0.0",
   "description": "Desafio de API da Driva",
-  "main": "index.js",
+  "main": "src/server.ts",
+  "author": "Matheus Rocha Jacks <https://github.com/Jackzinho>",
+  "repository": "https://github.com/Jackzinho/desafio-driva",
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register src/server.ts",
+    "start": "tsc && node -r module-alias/register dist/server.js",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --rs src/server.ts",
     "build": "tsc",
-    "lint": "eslint src/** --fix --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/** --fix --quiet"
   },
-  "author": "Matheus Rocha Jacks <https://github.com/Jackzinho>",
+  "_moduleAliases": {
+    "@": "dist"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.12",
@@ -26,7 +29,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
     "prettier": "^2.3.2",
-    "ts-node": "^10.1.0",
     "ts-node-dev": "^1.1.8",
     "tsconfig-paths": "^3.10.1",
     "typescript": "^4.3.5"
@@ -34,6 +36,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "module-alias": "^2.2.2",
     "node-fetch": "^2.6.1"
   }
 }
