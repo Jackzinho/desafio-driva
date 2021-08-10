@@ -172,7 +172,7 @@ npm run lint
 
   ```json
   {
-    "numbers": [14, 58, 7867, ...]
+    "numbers": [2, 2]
   }
   ```
 
@@ -181,7 +181,7 @@ npm run lint
   ```json
   200 Ok - application/json
   {
-    "result": <resultado da somatória>
+    "result": 4
   }
   ```
 
@@ -216,7 +216,6 @@ npm run lint
         "title": "Star Wars: The Phantom Menace",
         "episodeNumber": 1
     },
-    ...
   ]
   ```
 
