@@ -144,8 +144,9 @@ npm run lint
 
 - **Success Response:**
 
-  ```
-  200 Ok - text/plain - "World"
+  ```json
+  200 Ok - text/plain
+  "World"
   ```
 
 - **Sample Call:**
