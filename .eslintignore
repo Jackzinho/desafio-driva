@@ -1,0 +1,7 @@
+node_modules
+dist
+coverage
+jest.config.js
+jest.config.unit.js
+jest.config.integration.js
+jest-mongodb-config.js

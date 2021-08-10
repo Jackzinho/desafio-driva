@@ -1,0 +1,13 @@
+{
+  "extends": ["standard-with-typescript", "prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/no-unnecessary-type-assertion": "off",
+    "no-console": 1,
+    "prettier/prettier": 2
+  }
+}
