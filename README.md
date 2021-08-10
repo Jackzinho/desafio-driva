@@ -2,37 +2,37 @@
 
 > Desafio para vaga de estágio na Driva Tecnologia
 
-[![Author](https://img.shields.io/badge/author-Jacks-982da6?style=flat-square)](https://github.com/Jackzinho)
+<a href="https://github.com/Jackzinho" target="_blank">![Author](https://img.shields.io/badge/author-Jacks-982da6?style=flat-square)</a>
 ![Languages](https://img.shields.io/github/languages/count/Jackzinho/desafio-driva?color=982da6&style=flat-square)
 
 ----------
 
 ## Ferramentas:
-### [Typescript](https://www.typescriptlang.org):
+### <a href="https://www.typescriptlang.org" target="_blank">Typescript</a>:
 **Utilizado para melhores práticas de tipagem de código e prevenção de bugs por conta da natureza selvagem do Javascript**
 
-### [ESLint](https://eslint.org):
+### <a href="https://eslint.org" target="_blank">ESLint</a>:
 **Utilizado para padronizar a estilização do código**
 
-### [Prettier](https://prettier.io):
+### <a href="https://prettier.io" target="_blank">Prettier</a>:
 **Utilizado para adicionar mais funcionalidade ao ESLint**
 
-### [ts-node-dev](https://github.com/wclr/ts-node-dev):
+### <a href="https://github.com/wclr/ts-node-dev" target="_blank">ts-node-dev</a>:
 **Utilizado para dar restart no servidor quando arquivos forem modificados**
 
-### [tsconfig-paths](https://github.com/dividab/tsconfig-paths):
+### <a href="https://github.com/dividab/tsconfig-paths" target="_blank">tsconfig-paths</a>:
 **Configura path mapping no typescript**
 
-### [Express](https://expressjs.com):
+### <a href="https://expressjs.com" target="_blank">Express</a>:
 **Framework para rodar um server HTTP no Nodejs**
 
-### [node-fetch](https://github.com/node-fetch/node-fetch):
+### <a href="https://github.com/node-fetch/node-fetch" target="_blank">node-fetch</a>:
 **Biblioteca para fazer requisições HTTP assíncronas**
 
-### [cors](https://github.com/expressjs/cors):
+### <a href="https://github.com/expressjs/cors" target="_blank">cors</a>:
 **Middleware para configurar headers CORS no Express**
 
-### [module-alias](https://github.com/ilearnio/module-alias):
+### <a href="https://github.com/ilearnio/module-alias" target="_blank">module-alias</a>:
 **Configura path mapping no node**
 
 ## Organização do código:
@@ -84,7 +84,7 @@ src/models
 ```
 
 ## Instalação:
-**Para rodar o projeto é necessário ter o [Node.js versão LTS](https://nodejs.org/en/) instalado na máquina.**<br> 
+**Para rodar o projeto é necessário ter o <a href="https://nodejs.org/en/" target="_blank">Node.js versão LTS</a> instalado na máquina.**<br> 
 Para clonar via SSH é só usar o comando:
 
 ```
@@ -104,7 +104,7 @@ npm install
 ```
 
 ## Iniciando:
-**Os comandos a seguir podem ser executados usando [Yarn](https://yarnpkg.com) ou [npm](https://www.npmjs.com).**<br>
+**Os comandos a seguir podem ser executados usando <a href="https://yarnpkg.com" target="_blank">Yarn</a> ou <a href="https://www.npmjs.com" target="_blank">npm</a>.**<br>
 Comando principal para iniciar o servidor:
 
 ```
